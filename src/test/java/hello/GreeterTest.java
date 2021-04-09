@@ -13,7 +13,7 @@ public class GreeterTest {
 	public void greeterSaysHello() {
 		assertThat(greeter.sayHello(), containsString("Hello"));
 	}
-	
+	@Test
 	public void greeterSaysNoHello() {
 		assertThat(greeter.sayHello(), containsString("water"));
 	}
